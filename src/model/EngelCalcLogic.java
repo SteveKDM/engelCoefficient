@@ -10,12 +10,12 @@ public class EngelCalcLogic {
 		engel.setEngelCoefficient(engelCoefficient);
 
 		// エンゲル係数からメッセージ（アドバイス）を設定
-		// 15-20%を適性とする
+		// 15-20%を適正とする
 		String adviceMsg;
 		if(engelCoefficient < 15) {
 			adviceMsg = "食費を十分に抑えられています。もう少し贅沢しても良いです。";
 		} else if(engelCoefficient <= 20) {
-			adviceMsg = "適性値です。この調子で頑張りましょう。";
+			adviceMsg = "適正値です。この調子で頑張りましょう。";
 		} else {
 			adviceMsg = "エンゲル係数が高いです。食費を抑えていきましょう。";
 		}
