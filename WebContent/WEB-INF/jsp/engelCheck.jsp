@@ -9,7 +9,7 @@
 <body>
 <h1>エンゲル係数チェック</h1>
 <form action="/engelCoefficient/EngelCheck" method="post">
-家計総収入額:<input type="text" name="totalExpense">円<br>
+家計総支出額:<input type="text" name="totalExpense">円<br>
 食費支出額:<input type="text" name="foodExpense">円<br>
 <input type="submit" value="チェック">
 </form>
