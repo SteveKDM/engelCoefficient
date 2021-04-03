@@ -13,7 +13,7 @@
 家計総収入額：<c:out value="${engel.totalExpenseComma}" />円<br>
 食費支出額：<c:out value="${engel.foodExpenseComma}" />円<br>
 エンゲル係数：<c:out value="${engel.engelCoefficient}" />%<br>
-適性値：15%～20%<br>
+適正値：15%～20%<br>
 評価：${engel.adviceMsg}<br>
 <a href="/engelCoefficient/EngelCheck">戻る</a>
 </p>
